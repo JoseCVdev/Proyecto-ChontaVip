@@ -86,3 +86,12 @@ bottomNavItems.forEach((item, index) => {
         bottomMove.style.left = index * 25 + '%'
     }
 })
+
+
+function irLocationChontaVIP(){
+    window.open("https://www.google.com/maps/place/Clarita+Flores,+Ja%C3%A9n+06801/@-5.7224302,-78.7985322,17.78z/data=!4m5!3m4!1s0x91b4fb748ae4da63:0x95c76124f3928d71!8m2!3d-5.7226088!4d-78.7976355", "_blank")
+}
+
+function irLocationFacebook(){
+    window.open("https://www.facebook.com/recreocampestrechontavip", "_blank")
+}

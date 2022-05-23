@@ -681,3 +681,240 @@ section {
     display: none;
   }
 }
+
+
+.contenedor{
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+
+/* .img_front_local{
+  width: 400px;
+  height: 450px;
+}
+
+.texto-encima{
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+.centrado{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+} */
+
+.footer_main{
+  padding: 9ch 0;
+}
+
+.footer_content{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-left: 70px;
+  margin-right: 70px;
+  gap: 30px;
+}
+
+
+
+.blog{
+  position: relative;
+  width: 20em;
+  height: 25em;
+  cursor: pointer;
+  background: url(https://img.freepik.com/foto-gratis/tablas-madera-restaurante-borroso-fondo_1253-56.jpg?w=2000) no-repeat;
+  background-size: 22em 30em;
+  box-shadow: 3px 3px 20px rgba(0,0,0,0.5);
+  margin: auto;
+  overflow: hidden;
+}
+.blog *{
+  position: relative;
+  z-index: 2;
+}
+.blog:hover .color-overlay{
+  background:rgba(2, 2, 2, 0.492);
+  cursor: pointer;
+}
+.blog:hover .info{
+  opacity: 1;
+}
+.blog, .color-overlay{
+   border-radius: 0.7em;
+}
+.color-overlay{
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  transition: 0.7s background;
+  background: rgba(20, 27, 30, 0.3);
+  z-index: 1;
+}
+
+.title-box{
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  margin-top: 4em;
+}
+.title-box hr{
+  margin-top: -1.2em;
+  margin-bottom: 1em;
+  width: 3.5em;
+  height: 0.25em;
+  box-sizing: content-box;
+  border: none;
+  background: #D0BC57;
+}
+h3{
+   display: inline-block;
+   font-weight: 500;
+   letter-spacing: 2px;
+   font-size: 1.4em;
+   
+   text-align: center;
+}
+.intro{
+  width: 170px;
+  margin: 0 auto;
+  color: #fff;
+  font-family: 'Droid Serif', serif;
+  font-size: 13px;
+  font-style: italic;
+  line-height: 18px;
+}
+
+
+.info{
+  font-family: 'Helvetica', 'Arial', sans-serif;
+  font-size: 1.2em;
+  color: rgb(255, 255, 255);
+  line-height: 1.1em;
+  padding: 6.5em 2em;
+  text-align: left;
+  z-index: 3;
+}
+
+.footer{
+  display: inline-block;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 10em;
+  background: linear-gradient(rgba(0,0,0,0), rgba(0, 0, 0, 0.427));
+  border-radius:  0 0 0.7em 0.7em;
+}
+
+.footer > .icon-holder{
+  position: absolute;
+  bottom: 0;
+  height: 3em;
+  width: 100%;
+  display: inline-block;
+  font-size: 1.2em;
+  padding: 0 2em;
+  
+}
+
+.icon-holder i{
+  
+  color: #D0BC57;
+}
+
+.icon-holder span, h3{
+  color: #f2f9ff;
+}
+
+space{
+  display: inline-block;
+  width: 0.6em;
+  height: 1em;
+}
+
+.info_text_flex{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.blog:hover .icon_location{
+  -moz-transition: all .3s ease-in;
+  -o-transition: all .3s ease-in;
+  -webkit-transition: all .3s ease-in;
+  transition: all .3s ease-in;
+  color:#be7019;
+  cursor: pointer;
+}
+
+
+
+.about_us{
+  color: #be7019;
+}
+
+.social_network_facebook{
+  cursor: pointer;
+  color: white;
+}
+
+.social_network_facebook i{
+  margin-left: 9.4em;
+}
+
+.social_network_instagram{
+  cursor: pointer;
+  color: white;
+}
+
+.social_network_instagram i{
+  margin-left: 9em;
+}
+
+.social_network_whatsapp{
+  cursor: pointer;
+  color: white;
+}
+
+.social_network_whatsapp i{
+  margin-left: 9em;
+}
+
+.social_network_facebook:hover .icon_fb{
+  -moz-transition: all .3s ease-in;
+  -o-transition: all .3s ease-in;
+  -webkit-transition: all .3s ease-in;
+  transition: all .3s ease-in;
+  color:#3b5998;
+  cursor: pointer;
+}
+
+.social_network_instagram:hover .icon_insta{
+  background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+  background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+  background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.social_network_whatsapp:hover .icon_whatsapp{
+  -moz-transition: all .3s ease-in;
+  -o-transition: all .3s ease-in;
+  -webkit-transition: all .3s ease-in;
+  transition: all .3s ease-in;
+  color:#25D366;
+  cursor: pointer;
+}
+
+.subscribe h1{
+  color: #be7019;
+}
+
+.subscribe p{
+  color: white;
+}
