@@ -62,10 +62,10 @@
             <div class="menu-item">Sobre nosotros</div>
           </a>
           <a href="#food-menu-section">
-            <div class="menu-item">Menu</div>
+            <div class="menu-item">Carta</div>
           </a>
           <a href="#testimonial">
-            <div class="menu-item">Testimonios</div>
+            <div class="menu-item">Opiniones</div>
           </a>
         </div>
         <div class="right-menu">
@@ -84,7 +84,7 @@
     <section
       id="home"
       class="fullheight align-items-center bg-img bg-img-fixed"
-      style="background-image: url(assets/fondo\ 2.png)"
+      style="background-image: url(assets/Frame\ 5.png)"
     >
       <div class="container">
         <div class="row">
@@ -98,7 +98,7 @@
                 nuestra gastronomía peruana.
               </p>
               <div class="left-to-right play-on-scroll delay-4">
-                <button>Ordenar ahora</button>
+                <button onclick="redirige()">Ordenar ahora</button>
               </div>
             </div>
           </div>
@@ -131,7 +131,9 @@
                 afirmar que nuestro restaurant te recibirá con el cariño
                 familiar y te llevarán a esos momentos tan lindos de tu vida con
                 un solo aroma o una sola sazón.
-                <strong> ¡Buen provecho y bienvenidos!</strong>
+                <strong style="color: #be7019">
+                  ¡Buen provecho y bienvenidos!</strong
+                >
               </p>
             </div>
           </div>
@@ -194,7 +196,47 @@
                     <span> 120$ </span>
                   </div>
                   <div class="cart-btn">
-                    <i class="bx bx-cart-alt"></i>
+                    <i class="bx bx-link-external" onclick="redirigeMenu()"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="food-item salad-type">
+              <div class="item-wrap bottom-up play-on-scroll">
+                <div class="item-img">
+                  <div
+                    class="img-holder bg-img"
+                    style="background-image: url('assets/Costa\ -\ causa.jpeg')"
+                  ></div>
+                </div>
+                <div class="item-info">
+                  <div>
+                    <h3>Causa Limeña</h3>
+                    <span> 120$ </span>
+                  </div>
+                  <div class="cart-btn">
+                    <i class="bx bx-link-external" onclick="redirigeMenu()"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="food-item salad-type">
+              <div class="item-wrap bottom-up play-on-scroll">
+                <div class="item-img">
+                  <div
+                    class="img-holder bg-img"
+                    style="background-image: url('assets/Costa\ -\ jalea.jpeg')"
+                  ></div>
+                </div>
+                <div class="item-info">
+                  <div>
+                    <h3>Chicharron de pota</h3>
+                    <span> 120$ </span>
+                  </div>
+                  <div class="cart-btn">
+                    <i class="bx bx-link-external" onclick="redirigeMenu()"></i>
                   </div>
                 </div>
               </div>
@@ -210,31 +252,11 @@
                 </div>
                 <div class="item-info">
                   <div>
-                    <h3>Lorem ipsum</h3>
+                    <h3>Cuy con papas</h3>
                     <span> 120$ </span>
                   </div>
                   <div class="cart-btn">
-                    <i class="bx bx-cart-alt"></i>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="food-item ipsum-type">
-              <div class="item-wrap bottom-up play-on-scroll">
-                <div class="item-img">
-                  <div
-                    class="img-holder bg-img"
-                    style="background-image: url('assets/Costa\ -\ jalea.jpeg')"
-                  ></div>
-                </div>
-                <div class="item-info">
-                  <div>
-                    <h3>Lorem ipsum</h3>
-                    <span> 120$ </span>
-                  </div>
-                  <div class="cart-btn">
-                    <i class="bx bx-cart-alt"></i>
+                    <i class="bx bx-link-external" onclick="redirigeMenu()"></i>
                   </div>
                 </div>
               </div>
@@ -246,23 +268,23 @@
                   <div
                     class="img-holder bg-img"
                     style="
-                      background-image: url('assets/Postre\ -\ queso\ con\ miel.jpeg');
+                      background-image: url('assets/Sierra\ -\ caldo\ verde.jpeg');
                     "
                   ></div>
                 </div>
                 <div class="item-info">
                   <div>
-                    <h3>Lorem ipsum</h3>
+                    <h3>Caldo verde</h3>
                     <span> 120$ </span>
                   </div>
                   <div class="cart-btn">
-                    <i class="bx bx-cart-alt"></i>
+                    <i class="bx bx-link-external" onclick="redirigeMenu()"></i>
                   </div>
                 </div>
               </div>
             </div>
 
-            <div class="food-item dolor-type">
+            <div class="food-item lorem-type">
               <div class="item-wrap bottom-up play-on-scroll">
                 <div class="item-img">
                   <div
@@ -274,77 +296,139 @@
                 </div>
                 <div class="item-info">
                   <div>
-                    <h3>Lorem ipsum</h3>
+                    <h3>Chicharron</h3>
                     <span> 120$ </span>
                   </div>
                   <div class="cart-btn">
-                    <i class="bx bx-cart-alt"></i>
+                    <i class="bx bx-link-external" onclick="redirigeMenu()"></i>
                   </div>
                 </div>
               </div>
             </div>
 
-            <div class="food-item salad-type">
+            <div class="food-item ipsum-type">
               <div class="item-wrap bottom-up play-on-scroll">
                 <div class="item-img">
                   <div
                     class="img-holder bg-img"
                     style="
-                      background-image: url('assets/Sierra\ -\ cuy\ frito.jpeg');
+                      background-image: url('assets/Selva\ -\ Tacacho\ con\ cecina.jpeg');
                     "
                   ></div>
                 </div>
                 <div class="item-info">
                   <div>
-                    <h3>Lorem ipsum</h3>
+                    <h3>Tacacho con cecina</h3>
                     <span> 120$ </span>
                   </div>
                   <div class="cart-btn">
-                    <i class="bx bx-cart-alt"></i>
+                    <i class="bx bx-link-external" onclick="redirigeMenu()"></i>
                   </div>
                 </div>
               </div>
             </div>
 
-            <div class="food-item lorem-type">
+            <div class="food-item ipsum-type">
               <div class="item-wrap bottom-up play-on-scroll">
                 <div class="item-img">
                   <div
                     class="img-holder bg-img"
                     style="
-                      background-image: url('assets/Selva\ -\ tacacho\ con\ cecina.jpeg');
+                      background-image: url('assets/Selva\ -\ carne\ seca.jpg');
                     "
                   ></div>
                 </div>
                 <div class="item-info">
                   <div>
-                    <h3>Lorem ipsum</h3>
+                    <h3>Carne Seca</h3>
                     <span> 120$ </span>
                   </div>
                   <div class="cart-btn">
-                    <i class="bx bx-cart-alt"></i>
+                    <i class="bx bx-link-external" onclick="redirigeMenu()"></i>
                   </div>
                 </div>
               </div>
             </div>
-
+            <div class="food-item ipsum-type">
+              <div class="item-wrap bottom-up play-on-scroll">
+                <div class="item-img">
+                  <div
+                    class="img-holder bg-img"
+                    style="
+                      background-image: url('assets/Selva\ -\ Shurumbo.jpeg');
+                    "
+                  ></div>
+                </div>
+                <div class="item-info">
+                  <div>
+                    <h3>Shurumbo</h3>
+                    <span> 120$ </span>
+                  </div>
+                  <div class="cart-btn">
+                    <i class="bx bx-link-external" onclick="redirigeMenu()"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
             <div class="food-item dolor-type">
               <div class="item-wrap bottom-up play-on-scroll">
                 <div class="item-img">
                   <div
                     class="img-holder bg-img"
                     style="
-                      background-image: url('assets/Costa\ -\ ceviche.jpeg');
+                      background-image: url('assets/Postre\ -\ queso\ con\ miel.jpeg');
                     "
                   ></div>
                 </div>
                 <div class="item-info">
                   <div>
-                    <h3>Lorem ipsum</h3>
+                    <h3>Quesillo con miel</h3>
                     <span> 120$ </span>
                   </div>
                   <div class="cart-btn">
-                    <i class="bx bx-cart-alt"></i>
+                    <i class="bx bx-link-external" onclick="redirigeMenu()"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="food-item dolor-type">
+              <div class="item-wrap bottom-up play-on-scroll">
+                <div class="item-img">
+                  <div
+                    class="img-holder bg-img"
+                    style="
+                      background-image: url('assets/Postre\ -\ arroz\ con\ leche.jpg');
+                    "
+                  ></div>
+                </div>
+                <div class="item-info">
+                  <div>
+                    <h3>Arroz con leche</h3>
+                    <span> 120$ </span>
+                  </div>
+                  <div class="cart-btn">
+                    <i class="bx bx-link-external" onclick="redirigeMenu()"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="food-item dolor-type">
+              <div class="item-wrap bottom-up play-on-scroll">
+                <div class="item-img">
+                  <div
+                    class="img-holder bg-img"
+                    style="
+                      background-image: url('assets/Postre\ -\ chiuche.jpg');
+                    "
+                  ></div>
+                </div>
+                <div class="item-info">
+                  <div>
+                    <h3>Chiuche</h3>
+                    <span> 120$ </span>
+                  </div>
+                  <div class="cart-btn">
+                    <i class="bx bx-link-external" onclick="redirigeMenu()"></i>
                   </div>
                 </div>
               </div>
@@ -387,20 +471,20 @@
               <div class="review-wrap active">
                 <div class="review-content">
                   <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Ullam, labore nisi non molestias, minus laboriosam nostrum
-                    impedit iure facilis odio unde quia ad sunt corrupti dolores
-                    ratione voluptatibus quidem explicabo.
+                    Simplemente espectacular, es muy accesible de llegar y la
+                    tranquilidad que se experimenta en un ambiente libre es
+                    única. Todo perfecto la comida exquisita y el servicio
+                    excelente recomendable para cualquier ocasión especial.
                   </p>
                   <div
                     class="review-img bg-img"
                     style="
-                      background-image: url(assets/michael-dam-mEZ3PoFGs_k-unsplash.jpg);
+                      background-image: url(assets/Margarita\ -\ Opinion.jpg);
                     "
                   ></div>
                 </div>
                 <div class="review-info">
-                  <h3>Lorem Ipsum Dolor</h3>
+                  <h3>Margarita Pretell Cordova</h3>
                   <div class="rating">
                     <i class="bx bxs-star"></i>
                     <i class="bx bxs-star"></i>
@@ -417,17 +501,15 @@
               <div class="review-content">
                 <p>
                   Pasamos un momento maravilloso en lindo ambiente, rico clima,
-                  super bien atendidas y una comida espectacular.
+                  super bien atendidos y una comida espectacular.
                 </p>
                 <div
                   class="review-img bg-img"
-                  style="
-                    background-image: url(assets/Margarita\ -\ Opinion.jpg);
-                  "
+                  style="background-image: url(assets/Jhan\ -\ Opinion.jpeg)"
                 ></div>
               </div>
               <div class="review-info">
-                <h3>Margarita Pretell Cordova</h3>
+                <h3>Jhan Guerrero Cabrera</h3>
                 <div class="rating">
                   <i class="bx bxs-star"></i>
                   <i class="bx bxs-star"></i>
